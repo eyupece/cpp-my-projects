@@ -1,3 +1,5 @@
+// 17. In the second part of the video, I did not understand the logic and calculation of the true-false and bool expressions, check it again
+
 #include <iostream> 
 
 using namespace std; 
