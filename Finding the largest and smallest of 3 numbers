@@ -1,0 +1,51 @@
+#include <iostream> 
+
+using namespace std; 
+
+  
+
+int main() 
+
+{ 
+
+    cout << "birinci sayiyi giriniz" << endl; 
+
+  
+
+    int a, b, c; 
+
+    cin >> a; 
+
+  
+
+    cout << "ikinci sayiyi giriniz" << endl; 
+
+    cin >> b; 
+
+  
+
+    cout << "ucuncu sayiyi giriniz" << endl; 
+
+    cin >> c; 
+
+    if (a > c && a > b) { 
+
+        cout << "en buyuk sayi = " << a << endl; 
+
+    } 
+
+    else if (b > a && b > c) { 
+
+        cout << "en buyuk sayi = " << b << endl; 
+
+} 
+
+    else { 
+
+        cout << "en buyuk sayi = " << c << endl; 
+
+    } 
+
+   return 0; 
+
+} 
