@@ -21,3 +21,5 @@ i = i + 2;
 return 0; 
 
 } 
+
+//alternatif yol için bütün tek sayıları yazdırıp %2==1 yapıp tek sayıları yapabilirdik 
