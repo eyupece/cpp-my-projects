@@ -24,7 +24,7 @@ int main()
 
 		toplam += okunan;
 
-		sayi++;
+		sayi++; // girilme sebebi -1'i ortalamaya dahil etmeme
 
 	}
 
