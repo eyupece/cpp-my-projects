@@ -20,7 +20,8 @@
 
             int okunan; 
 
-             cout << "Hi! Please enter 5 number." << endl; 
+             cout << "Hi! Please enter 5 number." << endl;  /* bu ifadeyi for döngüsünden çıkarmamız işimize gelebilir. Çünkü her sayı girildiğinde bu ifade
+             tekrar edecektir. ve sayılar alt alta değilde yan yana örn(1 2 3 4 5) şeklinde yazılırsa 4 defa daha yine tekrar edecektir */
 
               cin >> okunan; 
 
