@@ -22,14 +22,17 @@ int main()
 	char op;
 	int sayi,sayi2;
 	cin >> sayi >> op >> sayi2;
-	if(op==',')
+	if (op == ',')
 
-	if (sayi < sayi2) {
-		cout << "1st number cannot be less than 2nd number" << endl;
+		if (sayi < sayi2) {
+			cout << "1st number cannot be less than 2nd number" << endl;
+		}
+		else if (sayi < 0 || sayi2 < 0) {
+		cout <<" numbers cannot be less than 0 " << endl;
 	}
 	else {
 
-		cout << fac(sayi) / (fac(sayi2) * fac((sayi - sayi2))) << endl;
+		 cout << "Result = " << fac(sayi) / (fac(sayi2) * fac((sayi - sayi2))) << endl;
 	}
 	return 0;
 }
