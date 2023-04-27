@@ -18,7 +18,7 @@ return sonuc;
 int main()
 {
 	cout << "Combination Calculator." << endl;
-	cout << "Please enter the number pair" << endl;
+	cout << "Please enter the number pair(x,y)" << endl;
 	char op;
 	int sayi,sayi2;
 	cin >> sayi >> op >> sayi2;
