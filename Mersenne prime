@@ -1,8 +1,6 @@
 #include <iostream>
+
 using namespace std;
-//Write the code that gives the first 20 Mersenne numbers.
-
-
 // Mersenne Sayısı = 2^n - 1
 /*
 mersenne(4) = mersenne(3)*2 + 1
@@ -18,9 +16,14 @@ int mersenne(int n) {
 
 
 int main() {
-	for (int i=1;i<=20;i++)
-	cout << mersenne(i) << endl;
+	int howMany =0;
+	cout << "how many Mersenne Numbers do you want us to enter ? " << endl;
+	cin >> howMany;
+	for (int i = 1; i <= howMany; i++) {
+		
+		
 
+		cout << mersenne(i) << endl;
+	}
 	return 0;
 }
-	
