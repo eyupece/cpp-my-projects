@@ -23,9 +23,11 @@ int main() {
     return 0;
 }
 /*
-ctopla fonksiyonu recursive olarak çağrıldığında, her seferinde x değeri kendisi ile toplanarak sonuca eklenecek ve y değişkeni bir azaltılarak kendini tekrar çağıracaktır. Bu işlem, y değişkeni sıfır olana kadar devam edecektir.
+ctopla fonksiyonu recursive olarak çağrıldığında, her seferinde x değeri kendisi ile toplanarak sonuca eklenecek ve y değişkeni bir azaltılarak kendini tekrar çağıracaktır. 
+Bu işlem, y değişkeni sıfır olana kadar devam edecektir.
 
-return x + ctopla(x, y-1); ifadesi, x değerinin kendisi ile toplandıktan sonra, y değişkeni bir azaltılarak ctopla fonksiyonunun kendini çağırdığını ifade etmektedir. Bu işlem, y değişkeni sıfır olana kadar recursive olarak tekrarlanacak ve sonunda tüm x değerleri toplamı elde edilecektir.
+return x + ctopla(x, y-1); ifadesi, x değerinin kendisi ile toplandıktan sonra, y değişkeni bir azaltılarak ctopla fonksiyonunun kendini çağırdığını ifade etmektedir. 
+Bu işlem, y değişkeni sıfır olana kadar recursive olarak tekrarlanacak ve sonunda tüm x değerleri toplamı elde edilecektir.
 
 Örneğin, kullanıcı 3 ve 4 değerlerini girerse, ctopla(3, 4) fonksiyonu şu şekilde çalışacaktır:
 
