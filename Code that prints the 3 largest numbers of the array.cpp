@@ -4,8 +4,8 @@ using namespace std;
 
 int main() {
 	cout << "Enter 7 numbers and find the largest 3 numbers ";
-	int n;
-	int a[n];
+	
+	int a[7];
 
 	cin >> a[0] >> a[1] >> a[2] >> a[3] >> a[4] >> a[5] >> a[6]; // NOT: ÇOK DAHA BASİT YOLU VAR FAKAT KONU OLARAK GÖRMEDİĞİM İÇİN EKLEMEK İSTEMEDİM !! 
 
