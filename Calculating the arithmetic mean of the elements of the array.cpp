@@ -3,7 +3,7 @@ using namespace std;
 
 
 int main() {
-	cout << Enter 7 numbers and calculate the arithmetic mean";
+	cout << "Enter 7 numbers and calculate the arithmetic mean ";
 	int a[7];
 
 	cin >> a[0] >> a[1] >> a[2] >> a[3] >> a[4] >> a[5] >> a[6]; 
