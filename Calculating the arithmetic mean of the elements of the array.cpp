@@ -1,19 +1,24 @@
 #include <iostream> 
+#include <cmath>
 using namespace std;
 
-
 int main() {
-	cout << "Enter 7 numbers and calculate the arithmetic mean ";
-	int a[7];
+    cout << "Enter the size of the array.   ";
+    int size;
+    cin >> size;
+    int* arr = new int[size];
+    cout << "Enter the " << size << " elements of the array. " << endl;
 
-	cin >> a[0] >> a[1] >> a[2] >> a[3] >> a[4] >> a[5] >> a[6]; 
-	int toplam = 0;
-	
-	
-		for (int i = 0; i < 7; i++) {
-			toplam += a[i];
-		}
-		
-	cout << "arithmetic mean = " << (float)toplam / 7 << endl;
-		return 0;
+    for (int i = 0; i < size; i++) {
+
+        cin >> arr[i];
+    }
+    int toplam = 0;
+
+    for (int i = 0; i < size; i++) {
+        toplam += arr[i];
+    }
+
+    cout << "arithmetic mean = " << (float)toplam / size << endl;
+    return 0;
 }
