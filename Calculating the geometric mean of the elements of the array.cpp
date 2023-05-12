@@ -3,18 +3,24 @@
 using namespace std;
 
 int main() {
-    cout << "Enter 7 numbers and calculate the geometric mean.   ";
-    int a[7];
+    cout << "Enter the size of the array.   ";
+    int size;
+    cin >> size;
+    int* arr = new int[size];
+    cout << "Enter the " << size << " elements of the array. " << endl;
 
-    cin >> a[0] >> a[1] >> a[2] >> a[3] >> a[4] >> a[5] >> a[6];
+    for (int i = 0; i < size; i++) {
+
+        cin >> arr[i];
+    }
     float carpim = 1;
 
-    for (int i = 0; i < 7; i++) {
-        carpim *= a[i];
+    for (int i = 0; i < size; i++) {
+        carpim *= arr[i];
     }
 
-    cout << "geometric mean = " << pow(carpim, 1.0 / 7) << endl;
-	return 0;
+    cout << "geometric mean = " << pow(carpim, 1.0 / size) << endl;
+    return 0;
 }
 
 /* (en) why 1.0 on line 16
