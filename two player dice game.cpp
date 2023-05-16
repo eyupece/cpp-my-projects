@@ -7,7 +7,7 @@ int main()
 	
 	int kacTane;
 	cin >> kacTane;
-	cout << kacTane << "rounds played.." << endl;
+	cout << kacTane << " rounds played.." << endl;
 	int toplamS1 = 0;
 	int toplamS2 = 0;
 	int zar1;
