@@ -29,7 +29,11 @@ ASCII tablosuna göre rakamlar 48-57 */  // buradan comment işaretlerini silip 
     s[0] = (saat / 10) +48; // + 48 in sebebi s char türünde bir değişken ve 48-57 arasında rakamlar var. 
     s[1] = saat%10 +48 ;  
   
-    s[8] = '\0';
+    s[8] = '\0'; 
+      /*  s[8] = '\0' burada s[8] ' i end of string yaptığımız için durur. Bunun yerine
+      for(int i=0;i<8;i++) 
+         cout << s[i];      ifadesini dersek de olur fakat bizim kullandığımız daha güzel bir ifade   */
+    
     cout << s << endl;
   }
   
